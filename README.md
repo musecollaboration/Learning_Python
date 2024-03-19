@@ -1,5 +1,5 @@
 
-My study of Python at https://stepik.org Here I will post everything that seemed necessary and interesting to me during the training. 
+My study of Python at https://stepik.org \nHere I will post everything that seemed necessary and interesting to me during the training. 
 Perhaps you will find this useful for yourself.
 
 -----------------------------------------------
