@@ -21,3 +21,10 @@
 # Sample Output 2:
 # {'z': 6, 'w': 3}
 
+string = input()
+d = {}
+for letter in string.lower():
+    if letter.isalpha():
+        d[letter] = d.get(letter, 0) + 1
+
+print(d)
