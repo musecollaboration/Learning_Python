@@ -67,7 +67,7 @@ print(d)
 
 
 # Установление связи между обьектами
-# переводчикб словарь
+# переводчик словарь
 words = {}
 while True:
     s = input()
@@ -76,3 +76,53 @@ while True:
     else:
         print('Введите перевод слова')
         words[s] = input()
+
+
+# Хранение данных об объекте
+# СПОСОБ 1 Получение значений внутри вложенного словаря
+contacts = {
+    'John Kennedy': {
+        'birthday': '29 may 1917', 'city': 'Brookline',
+        'phone': None, 'children': 3
+    },
+    'Arnold Schwarzenegger': {
+        'birthday': '30 july 1947', 'city': 'Gradec',
+        'phone': 555 - 555 - 555, 'children': 5
+    },
+    'Donald John Trump': {
+        'birthday': '14 july 1946', 'city': 'New York',
+        'phone': 777 - 777 - 777, 'children': 4
+    }
+}
+
+person = ['John Kennedy', 'Arnold Schwarzenegger', 'Donald John Trump']
+
+for i in person:
+    birthday = contacts[i]['birthday']
+    city = contacts[i]['city']
+    phone = contacts[i]['phone']
+    children = contacts[i]['children']
+    print(i, children, phone)
+
+# СПОСОБ 2
+contacts = {
+    'John Kennedy': {
+        'birthday': '29 may 1917', 'city': 'Brookline',
+        'phone': None, 'children': 3
+    },
+    'Arnold Schwarzenegger': {
+        'birthday': '30 july 1947', 'city': 'Gradec',
+        'phone': 555 - 555 - 555, 'children': 5
+    },
+    'Donald John Trump': {
+        'birthday': '14 july 1946', 'city': 'New York',
+        'phone': 777 - 777 - 777, 'children': 4
+    }
+}
+
+person = ['John Kennedy', 'Arnold Schwarzenegger', 'Donald John Trump']
+
+for i in person:
+    print(i)
+    for j in contacts[i]:
+        print(j, contacts[i][j])
