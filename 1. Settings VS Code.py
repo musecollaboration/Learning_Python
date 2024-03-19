@@ -47,7 +47,7 @@
     "editor.defaultFormatter": "ms-python.autopep8",
     "terminal.integrated.mouseWheelZoom": true,
     "autopep8.args": [
-        "--ignore=E731" // игнор лябда
+        "--ignore=E731" // игнор замены лямбды на функцию согластно PEP8
     ],
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
