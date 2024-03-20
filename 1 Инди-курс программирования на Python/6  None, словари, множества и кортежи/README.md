@@ -12,6 +12,8 @@ https://stepik.org/course/63085/syllabus
 Преподаватели:
 Артем Егоров
 https://stepik.org/users/4877629/teach
+
+youtube
 https://www.youtube.com/c/egoroffchannel
 
 ---------------------------------------
