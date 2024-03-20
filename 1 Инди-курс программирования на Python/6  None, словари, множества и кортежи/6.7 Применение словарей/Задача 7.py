@@ -96,9 +96,7 @@ for name in sorted_names:
     print(name)
 
  # Для любителей экономить строки:
-# sorted_names = sorted(
-#      [person['first_name'] for person in data['my_friends']['people']])
-
+# sorted_names = sorted([person['first_name'] for person in data['my_friends']['people']])
 # for name in sorted_names:
 #      print(name)
 
