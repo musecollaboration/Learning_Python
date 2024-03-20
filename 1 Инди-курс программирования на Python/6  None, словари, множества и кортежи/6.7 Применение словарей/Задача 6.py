@@ -49,10 +49,15 @@ for i in persons:
     data[name] = dict
 print(data)
 
-# i = ('Allison Hill', 334053, 'M', '1635644202')
-# print(i)
-# name, salary, gender, passport = i
-# print(name, salary, gender, passport)
+# s = ('Allison Hill', 334053, 'M', '1635644202')
+# name, salary, gender, passport = s
+# d = {
+#     'name': name,
+#     'salary': salary,
+#     'gender': gender,
+#     'passport': passport
+# }
+# print(d)
 
 
 # РЕШЕНИЕ 2
