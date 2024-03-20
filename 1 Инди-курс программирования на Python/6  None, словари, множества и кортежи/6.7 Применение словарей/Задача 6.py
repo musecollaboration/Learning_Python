@@ -40,14 +40,17 @@ persons= [
 data = {}
 for i in persons:
     name, salary, gender, passport = i  # тут фишка с присвоением!!!
-    dict = {
+    i_dict = {
         'salary': salary,
         'gender': gender,
         'passport': passport,
 
     }
-    data[name] = dict
+    data[name] = i_dict
 print(data)
+
+# Распаковка кортежа
+Кортежи/Распаковка кортежа.py
 
 # s = ('Allison Hill', 334053, 'M', '1635644202')
 # name, salary, gender, passport = s
