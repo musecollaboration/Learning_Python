@@ -48,6 +48,11 @@ for i in persons:
     }
     data[name] = dict
 
+# i = ('Allison Hill', 334053, 'M', '1635644202')
+# print(i)
+# name, salary, gender, passport = i
+# print(name, salary, gender, passport)
+
 
 # РЕШЕНИЕ 2
 persons= [
