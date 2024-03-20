@@ -85,3 +85,22 @@ data = {
         }]
     }
 }
+
+# мое решение
+names = []
+for person in data['my_friends']['people']:
+    names.append(person['first_name'])
+
+sorted_names = sorted(names)
+for name in sorted_names:
+    print(name)
+
+ # Для любителей экономить строки:
+# sorted_names = sorted(
+#      [person['first_name'] for person in data['my_friends']['people']])
+
+# for name in sorted_names:
+#      print(name)
+
+# Для однострочников:
+# print(*sorted([i["first_name"] for i in data["my_friends"]["people"]]), sep = '\n')
