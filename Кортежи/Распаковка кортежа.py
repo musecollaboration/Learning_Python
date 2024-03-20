@@ -41,3 +41,14 @@ print(last)   # Выведет 5
 
 # Это полезно, когда вам нужны только определенные данные из кортежа.
 
+s = ('Allison Hill', 334053, 'M', '1635644202')
+name, salary, gender, passport = s
+d = {
+    'name': name,
+    'salary': salary,
+    'gender': gender,
+    'passport': passport
+}
+print(d)
+# {'name': 'Allison Hill', 'salary': 334053, 'gender': 'M', 'passport': '1635644202'}
+# PS D:\My_folder\Python> 
