@@ -47,6 +47,7 @@ for i in persons:
 
     }
     data[name] = dict
+print(data)
 
 # i = ('Allison Hill', 334053, 'M', '1635644202')
 # print(i)
@@ -75,3 +76,4 @@ for i in persons:
         'passport': i[3]
     }
     data[i[0]] = dict
+print(data)
