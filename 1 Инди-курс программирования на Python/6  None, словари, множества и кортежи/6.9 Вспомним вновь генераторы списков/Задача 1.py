@@ -41,5 +41,6 @@ for i in colors:
 print(s)
 
 # ВАРИАНТ 2
-# s = [(i, j) for j in sizes for i in colors]
+# s = [(i, j) for i in colors for j in sizes]
 # print(s)
+
