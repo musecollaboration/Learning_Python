@@ -33,3 +33,13 @@
 colors = ['White', 'Blue', 'Yellow', 'Purple', 'Black', 'Green']
 sizes = ['S', 'M', 'L', 'XL', 'XLL']
 
+# ВАРИАНТ 1
+s = []
+for i in colors:
+    for j in sizes:
+        s.append((i, j))
+print(s)
+
+# ВАРИАНТ 2
+# s = [(i, j) for j in sizes for i in colors]
+# print(s)
