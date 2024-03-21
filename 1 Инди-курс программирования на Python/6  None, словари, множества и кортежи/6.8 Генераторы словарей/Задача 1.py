@@ -42,3 +42,15 @@ user = {
         "term": "Annual"
     }
 }
+
+# ВАРИАНТ 1
+a = list(map(str, input().split()))
+d = {}
+for i in a:
+    d[i] = user[i]
+print(d)
+
+# ВАРИАНТ 2
+a = list(map(str, input().split()))
+d = {i: user[i] for i in a}
+print(d)
