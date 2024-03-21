@@ -10,13 +10,12 @@
     "code-runner.saveFileBeforeRun": true, // Автоматическое сохранение файла перед выполнением кода в Code Runner
     "editor.accessibilityPageSize": 12, // Размер страницы доступности редактора
     "editor.minimap.enabled": false, // Отключение мини-карты
-    "editor.lineHeight": 24, // Высота строки
+    "editor.lineHeight": 28, // Высота строки
     "editor.hover.delay": 1500, // Задержка при отображении всплывающей подсказки
     "editor.fontSize": 22, // Размер шрифта редактора
     "editor.letterSpacing": 0.3, // Межбуквенное расстояние
     "editor.mouseWheelZoom": true, // Включение масштабирования колесиком мыши
     "editor.tokenColorCustomizations": {
-        "variables": "#DCDEDF", // Изменение цвета переменных
         "textMateRules": [
             {
                 "scope": [
@@ -33,7 +32,6 @@
                     "variable.other.enummember"
                 ],
                 "settings": {
-                    "foreground": "#DCDEDF" // Задание цвета текста
                 }
             }
         ]
@@ -54,4 +52,5 @@
     "terminal.integrated.gpuAcceleration": "on",
     "terminal.integrated.fontSize": 20,
     "terminalThemes.style": "3024 (base16)",
+    "editor.fontLigatures": false,
 }
