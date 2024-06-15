@@ -50,7 +50,10 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.gpuAcceleration": "on",
-    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.fontSize": 21,
     "terminalThemes.style": "3024 (base16)",
     "editor.fontLigatures": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
 }
