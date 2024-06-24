@@ -45,7 +45,8 @@
     "editor.defaultFormatter": "ms-python.autopep8",
     "terminal.integrated.mouseWheelZoom": true,
     "autopep8.args": [
-        "--ignore=E731" // игнор замены лямбды на функцию согластно PEP8
+        "--ignore=E731", // игнор замены лямбды на функцию согласно PEP8
+        "--max-line-length 1000" // увеличение длины строки до 1000 символов
     ],
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
@@ -56,4 +57,6 @@
     "workbench.colorTheme": "Atom One Dark",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
+    "cSpell.language": "en,ru",
+    "interactiveWindow.executeWithShiftEnter": true,
 }
