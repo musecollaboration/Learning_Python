@@ -9,7 +9,7 @@
     "code-runner.showExecutionMessage": false, // Отключение отображения сообщений о выполнении в Code Runner
     "code-runner.saveFileBeforeRun": true, // Автоматическое сохранение файла перед выполнением кода в Code Runner
     "editor.accessibilityPageSize": 12, // Размер страницы доступности редактора
-    "editor.minimap.enabled": false, // Отключение мини-карты
+    // "editor.minimap.enabled": false, // Отключение мини-карты
     "editor.lineHeight": 28, // Высота строки
     "editor.hover.delay": 1500, // Задержка при отображении всплывающей подсказки
     "editor.fontSize": 22, // Размер шрифта редактора
@@ -46,7 +46,7 @@
     "terminal.integrated.mouseWheelZoom": true,
     "autopep8.args": [
         "--ignore=E731", // игнор замены лямбды на функцию согласно PEP8
-        # "--max-line-length 1000" // увеличение длины строки до 1000 символов
+        // "--max-line-length 1000" // увеличение длины не работает
     ],
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
@@ -59,4 +59,12 @@
     "explorer.confirmDelete": false,
     "cSpell.language": "en,ru",
     "interactiveWindow.executeWithShiftEnter": true,
+    "cSpell.userWords": [
+        "beegeek",
+        "stepik"
+    ],
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.scale": 2,
 }
+
+// justMyCode" (по умолчанию == true) выключен обход библиотеки
