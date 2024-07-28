@@ -65,6 +65,22 @@
     ],
     "editor.minimap.showSlider": "always",
     "editor.minimap.scale": 2,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+
+    "indentRainbow.ignoreErrorLanguages" : [
+        "python",
+    ],
+      // Using the light mode
+    "indentRainbow.indicatorStyle": "light",
+  // we use a simple 1 pixel wide line
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  // the same colors as above but more visible
+    "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+    ]
 }
 
 // justMyCode" (по умолчанию == true) выключен обход библиотеки
