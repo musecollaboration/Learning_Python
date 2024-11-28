@@ -1,3 +1,6 @@
+// АКТУАЛЬНЫЕ НАСТРОКИ ТУТ ----> https://t.me/jun_python/422/34691
+// ПЛЮС МНОГО БЕСПЛАТНОЙ ИНФЫ ПО PYTHON
+
 {
     "[python]": {
         "editor.formatOnType": true,
